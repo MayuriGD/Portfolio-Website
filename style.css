@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,700&family=Poppins:wght@200&family=Roboto:ital,wght@1,100&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #0d2040;
+}
+.sidebar{
+    /*position: absolute;*/
+    background-color: #dadeec;
+    color: black;
+    transition: transform 0.3s ease-in;
+    height: 100vh;
+    font-weight: bolder;
+     
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+    
+}
+.main
+{
+ 
+  color: beige;
+  width: 90vw;
+  background-color: #0d2040;
+ 
+}
+.container
+{
+    display: flex;
+    background-color: #0d2040;
+    width: 100%;
+    height: 100%;
+}
+.infocontainer{
+   /* background-color: #034078;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-weight: bolder;
+
+}
+.hello{
+font-size: 3em;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.name{
+font-size: 3em;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+}
+.about{
+ font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2.2em;
+    margin-top: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+.buttons{
+ margin-top: 2.2em;
+ font-size: 16px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: antiquewhite;
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: antiquewhite;
+    background-color: black;
+}
+.devPic img{
+    
+    height: 58vh;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+.contactform{
+   
+    padding: 0 34px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 88px;
+    
+    
+}
+.contactform h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    /*padding: 12px 0;*/
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.mb-3.form-check {
+    display: inline;
+}
+button.btn.btn-sm {
+    display: flex;
+    margin: 10px 0;
+    font-size: 10px;
+    padding: 7px 13px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: lightgoldenrodyellow;
+    margin: 0 5px;
+}
+.contactform form div input{
+   /* width: 26vw;*/
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form {
+   margin: 0 40px;
+ }
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogItem
+{
+    margin: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.blogContainer{
+    margin: 10px 88px;
+}
+
+
+.blogContainer h1
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 23px;
+}
+
+.blogItem p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.introcontainer {
+    padding: 30px;
+    margin: 10px 88px;
+    letter-spacing: 1px;
+}
+  li
+  {
+    list-style: none;
+    font-weight: bolder;
+    color: rgb(238, 249, 110);
+    font-size: 15px;
+    margin: 2px;
+  }
+  h3, h2
+  {
+    margin: 5px 0;
+  }
+  .Skillcontainer
+  {
+    padding: 12px;
+  }
+  .Skill{
+   width: 265px;
+   height: 6px;
+   background-color: red;
+   border: 2px solid black;
+  }
+  .skillItem
+  {
+    display: flex;
+    align-items: center;
+ }
+ .hundered
+ {
+    width: 265px;
+    background-color: blueviolet;
+ }
+.fifty
+{
+   width: 125px;
+   background-color: aqua;
+}
+.t5
+{
+   width: 75px;
+   background-color: yellow;
+}
+.s5{
+    width: 200px;
+    background-color: blue;
+}
+.sidebarGo
+{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross
+{
+    margin-left: 142px;
+}
+@media (max-width: 1250px) {
+    /**
+    {
+        background-color: rgb(237, 156, 156);
+    }*/
+    .devPic{
+        display: none;
+    }
+    .infocontainer, .contactform, .blogContainer{
+        margin: 50px 8px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+   /* .sidebar
+    {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }*/
+  }
+
+
